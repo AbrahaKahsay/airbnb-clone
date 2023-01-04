@@ -3,8 +3,8 @@ import Logo from "../images/airbnb.png";
 
 export const Navbar = () => {
   return (
-    <div>
-        <img src={Logo} alt="logo" />
+    <div className='photo-cotainer'>
+        <img src={Logo} alt="logo" className='photo'/>
     </div>
   )
 }
