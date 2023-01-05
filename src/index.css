@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   height: 100vh;
 }
 
@@ -20,22 +20,25 @@ body {
   max-width: 100px;
 }
 
-.grid {
+.hero {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding: 20px;
-  max-width: 100%;
-  height: auto;
-  position: relative;
 }
 
-h1 {
+.hero--photo {
+  display: flex;
+  align-self: center;
+}
+
+.hero--header {
   font-size: 36px;
   font-weight: 600;
   margin-left: 36px;
 }
 
-p {
+.hero--text {
   font-size: 16px;
   margin-left: 36px;
   columns: #222222;
