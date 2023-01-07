@@ -36,6 +36,7 @@ body {
   font-size: 36px;
   font-weight: 600;
   margin-left: 36px;
+  margin-bottom: 10px;
 }
 
 .hero--text {
@@ -44,4 +45,5 @@ body {
   columns: #222222;
   width: 320px;
   height: auto;
+  margin-top: 0;
 }
