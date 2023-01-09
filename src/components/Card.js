@@ -15,6 +15,8 @@ export const Card = () => {
         <span><img src={Elipse} alt="elipse"/></span>
         <span>USA</span>
       </div>
+      <p>Life lessons with Katie Zaferes</p>
+      <p><strong>From $136</strong> / person</p>
     </section>
   )
 }
