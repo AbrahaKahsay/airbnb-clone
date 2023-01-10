@@ -6,7 +6,7 @@ import Elipse from "../images/Ellipse6.png"
 
 export const Card = () => {
   return (
-    <section>
+    <section className='card'>
       <img src={Image1} alt="card-pic-1" />
       <div>
         <img src={Star1} alt="star"/>
