@@ -9,7 +9,7 @@ export const Card = () => {
     <section className='card'>
       <img src={Image1} alt="card-pic-1" />
       <div>
-        <img src={Star1} alt="star"/>
+        <img src={Star1} alt="star" className='star'/>
         <span>5.0</span>
         <span>(6)</span>
         <span><img src={Elipse} alt="elipse"/></span>
