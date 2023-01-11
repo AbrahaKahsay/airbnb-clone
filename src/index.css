@@ -51,3 +51,7 @@ body {
 .card {
   margin-left: 40px;
 }
+
+.star {
+  width: 15px;
+}
