@@ -47,3 +47,7 @@ body {
   height: auto;
   margin-top: 0;
 }
+
+.card {
+  margin-left: 40px;
+}
